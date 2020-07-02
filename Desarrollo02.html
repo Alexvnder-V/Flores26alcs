@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo02</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Desarrollo 02</h1>
+    <p><a href="index.html">Regresar a la Página Principal</a></p>
+
+    <nav>
+        <a href="Desarrollo01.html" id="d01" >Desarrollo 01</a>
+        <a href="Desarrollo02.html" id="d02">Desarrollo 02</a>
+        <a href="Desarrollo03.html" id="d03">Desarrollo 03</a>
+    </nav>
+    <br>
+    <table border="1" >
+        <tr>
+            <th>Categoría</th>
+            <th>Sueldo bruto</th>
+
+        </tr>
+        <tr>
+            <td align="center">A</td>
+            <td align="center"> S/. 2350</td>
+            <td><input type="button" name="btn1" value="Elegir" onclick="categoriaA()"></td>
+        </tr>
+        <tr>
+            <td align="center">B</td>
+            <td align="center"> S/. 2000</td>
+            <td><input type="button" name="btn2" value="Elegir" onclick="categoriaB()"></td>
+
+        </tr>
+        <tr>
+            <td align="center">C</td>
+            <td align="center"> S/. 1850</td>
+            <td><input type="button" name="btn3" value="Elegir" onclick="categoriaC()"></td>
+
+        </tr>
+        <tr>
+            <td align="center">D</td>
+            <td align="center"> S/. 1500</td>
+            <td><input type="button" name="btn4" value="Elegir" onclick="categoriaD()"></td>
+
+        </tr>
+
+    </table>
+
+    <form action="" name="navidad">
+
+        <table border="1" align="center">
+
+            <tr>
+                <td colspan="3" align="center" id="textoD02">Elija su categoría en la parte de la izquierda, después ingrese el número de hijos que tenga, presione el boton de tipo de profesor y calcule.</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Su categoría</td>
+                <td><input type="text" name="categoriaD02" id="categoriaD02" readonly="true"> </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Sueldo Bruto</td>
+                <td><input type="number" name="sueldoBD02" id="sueldoBD02" readonly="true"></td>
+                
+            </tr>
+            <tr>
+                <td colspan="2" align="center">Número de hijos</td>
+                <td ><input type="number" name="d02hijos" id="d02hijos"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" name="btn5" value="Profesor Contratado" onclick="pContratado()"></td>
+                <td><input type="button" name="btn6" value="Profesor Nombrado" onclick="pNombrado()"></td>
+                <td><input type="text" name="respuestaprofe" id="respuestaprofe" readonly="true"></td>
+            </tr>
+            <tr hidden>
+                <td colspan="2">Porcentaje decuento</td>
+                <td><input type="number" name="porceD02" id="porceD02" readonly="true"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><input  id="btn7D02" type="button" name="btn7" value="Calcular" onclick="calcularD02()"></td>
+            </tr>
+            
+        </table>
+
+    </form>
+
+    <br>
+
+    <form action="" name="resultadosD02">
+        <table border="1" align="center">
+            <tr>
+                <th colspan="2" align="center">Resultados</th>
+            </tr>
+            <tr>
+                <td align="center">Bonificación por número de hijos</td>
+                <td><input type="number" name="boniHijosD02" id="boniHijosD02" readonly="true"></td>
+            </tr>
+            <tr>
+                <td align="center">Bonificación por condición laboral</td>
+                <td><input type="number" name="boniLaboralD02" id="boniLaboralD02" readonly="true"></td>
+            </tr>
+            <tr>
+                <td align="center">Bonificación Total</td>
+                <td><input type="number" name="boniTotalD02" id="boniTotalD02" readonly="true"></td>
+            </tr>
+
+        </table>
+
+
+    </form>
+
+
+    
+
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>

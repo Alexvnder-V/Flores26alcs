@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo01</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Desarrollo 01</h1>
+    <p><a href="index.html">Regresar a la Página Principal</a></p>
+    
+    <nav>
+        <a href="Desarrollo01.html" id="d01" >Desarrollo 01</a>
+        <a href="Desarrollo02.html" id="d02">Desarrollo 02</a>
+        <a href="Desarrollo03.html" id="d03">Desarrollo 03</a>
+    </nav>
+    <br>
+
+
+    <form action="" name="curso" >
+        <table border="2" align="center">
+            <tr>
+                <td colspan="2" style="width: 350px;">Ingrese el promedio ponderado del alumno para saber a que categoría pertenece.</td>
+            </tr>
+            <tr>
+                <td id="promalumno" style="width: 180px;">Promedio del alumno</td>
+                <td><input type="number" name="nota" id="nota" style="width: 222px"> </td>
+            </tr>
+            <tr>
+                <td><input type="button" name="btn1" value="Borrar" onclick="borrar()" style="width: 180px;"></td>
+                <td><input type="button" name="btn2" value="Aceptar" onclick="aceptar()" style="width: 230px;"></td>
+            </tr>
+            <tr>
+                <td>Categoria</td>
+                <td><input type="text" name="categoria" id="categoria" readonly="true" style="width: 222px;"></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>

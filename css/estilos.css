@@ -1,0 +1,54 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+nav{
+    text-align: center;
+}
+#d01{
+    font-size: x-large;
+}
+#d02{
+    font-size: x-large;
+}
+#d03{
+    font-size: x-large;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+#cuadro{
+    background-color: rgba(0, 68, 255, 0.63);
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+
+p{
+    text-align: center;
+}
+/*Desarrollo02*/
+#btn7D02{
+    width: 445px;
+}
+#textoD02{
+    width: 448px;
+}
+
+/*Desarrollo03 */
+#titulo1D03{
+    height: 50px; 
+    width: 150px;
+}
+#btnBorrarD03{
+    width: 370px;
+}
+#btnCalcularD03{
+    width: 165px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo03</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Desarrollo 03</h1>
+    <p><a href="index.html">Regresar a la Página Principal</a></p>
+
+    <nav>
+        <a href="Desarrollo01.html" id="d01" >Desarrollo 01</a>
+        <a href="Desarrollo02.html" id="d02">Desarrollo 02</a>
+        <a href="Desarrollo03.html" id="d03">Desarrollo 03</a>
+    </nav>
+    <br>
+
+    <table border="2">
+        <tr>
+            <th id="titulo1D03" >Bonifación por cada hijo en edad escolar</th>
+            <th> S/. 50.00</th>
+        </tr>
+        <tr>
+            <th>Sueldo básico</th>
+            <th> S/. 600 </th>
+        </tr>
+    </table>
+
+
+    <br><br>
+
+
+    <form action="" name="trabajo">
+        <table border="2" align="center" >
+            <tr>
+                <td align="center">Ingrese importe total vendido del mes</td>
+                <td><input type="number" name="importemes" id="importemes" placeholder="Espacio necesario"></td>
+            </tr>
+            <tr>
+                <td align="center">Ingrese la cantidad de hijos que tenga en edad escolar</td>
+                <td><input type="number" name="cantidad" id="cantidad" placeholder="Espacio necesario" ></td>
+            </tr>
+            
+            <tr>
+                <td align="center">Comisión</td>
+                <td><input type="number" name="comision" id="comision" readonly="true"></td>
+            </tr>
+            <tr>
+                <td align="center">Bonificación</td>
+                <td><input type="number" name="bonificacion" id="bonificacion" readonly="true"></td>
+            </tr>
+            <tr>
+                <td align="center">Sueldo Bruto</td>
+                <td><input type="number" name="sueldobruto" id="sueldobruto" readonly="true"></td>
+            </tr>
+            <tr>
+                <td align="center">Descuento</td>
+                <td><input type="number" name="descuento" id="descuento" readonly="true"></td>
+            </tr>
+            <tr>
+                <td align="center">Sueldo Neto</td>
+                <td><input type="number" name="sueldoneto" id="sueldoneto" readonly="true"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="btn1" value="Borrar" onclick="borrarD03()" id="btnBorrarD03"></td>
+                <td><input type="button" name="btn2" value="Calcular" onclick="calcularD03()" id="btnCalcularD03"></td>
+            </tr>
+
+        </table>
+        
+    </form>
+    <p id="parrafoD03">*Los montos están en NUEVOS SOLES (S/.).*</p>
+    
+    
+
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>
